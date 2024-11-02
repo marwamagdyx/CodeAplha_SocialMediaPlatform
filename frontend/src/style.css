@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    padding-top: 20px;
+    background: #dcdcdc;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    margin-bottom: 30px;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.mt-n5 {
+    margin-top: -3rem !important;
+}
+.linear-gradient {
+    background-image: linear-gradient(#50b2fc, #f44c66);
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.rounded-2 {
+    border-radius: 7px !important;
+}
+.bg-light-info {
+    background-color: rgba(235, 243, 254, 1) !important;
+}
+.card {
+    margin-bottom: 30px;
+}
+.position-relative {
+    position: relative !important;
+}
+.shadow-none {
+    box-shadow: none !important;
+}
+.border {
+    border: 1px solid #ebf1f6 !important;
+}
+.fs-6 {
+    font-size: 1.25rem !important;
+}
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+.d-block {
+    display: block !important;
+}
+a {
+    text-decoration: none;
+}
+.user-profile-tab .nav-item .nav-link.active {
+    color: #5d87ff;
+    border-bottom: 2px solid #5d87ff;
+}
+.mb-9 {
+    margin-bottom: 20px !important;
+}
+.fw-semibold {
+    font-weight: 400 !important;
+}
+.fs-4 {
+    font-size: 1rem !important;
+}
+.card, .bg-light {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.fs-2 {
+    font-size: .75rem !important;
+}
+.rounded-4 {
+    border-radius: 4px !important;
+}
+.ms-7 {
+    margin-left: 30px !important;
+}
+
+/* Container and Layout Adjustments */
+.container-users {
+    display: flex;
+}
+.user-list {
+    flex: 0.2; /* Reduce width of suggested people panel */
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.posts-section {
+    margin-top: 40px;
+    flex: 0.7; /* Increase width of posts section */
+}
+
+/* Navigation Bar */
+.custom-nav {
+    position: fixed; /* Fixed position to stick to the top */
+    top: 0; /* Stick to the very top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: #f8f9fa; /* Background color (e.g., light blue) */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for visibility */
+}
+.nav-container {
+    padding-top: 70px; /* Adjust depending on the height of your navbar */
+}
+.user-info {
+    padding-left: 60px; /* Move profile picture and username to the left */
+}
+
+/* Suggested People */
+.user-suggestion {
+    display: flex;
+    align-items: center;
+}
+.user-suggestion img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.user-suggestion p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.icon-small {
+    width: 15px;
+    height: 15px;
+    padding-bottom: 7px;
+}
+
+/* Adjust Like and Comment Button Padding to be Smaller */
+.like-btn, .comment-btn {
+    padding: 5px;
+    font-size: 0.87rem; /* Smaller font size */
+    width: 25px; /* Adjust button size */
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
